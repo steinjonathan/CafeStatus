@@ -1,0 +1,91 @@
+﻿@model IEnumerable<CafeStatus.Models.CafeStatusModels>
+
+@{
+    ViewBag.Title = "Café Status";
+}
+
+<script>
+
+    function addStatus(status) {
+
+        var observacao = $('#Observacao').val();
+
+        $.ajax({
+            url: window.location.href + "/CafeStatus/Create",
+            type: "post", //send it through get method
+            data: {
+                Observacao: observacao,
+                Pronto: status
+            },
+        }).done(function () {
+            window.location.reload(true);
+        });
+    }
+
+    function Refresh() {
+
+        window.location.reload(true);
+    }
+</script>
+
+<div class="col-md-12">
+    <div class="col-md-8">
+        <h2>Café status</h2>
+        <p> Aplicação colaborativa para descobrir se há ou não café na máquina sem precisar ir lá.</p>
+        <p> Colabore com a comunidade compartilhando a situação atual do café! :D</p>
+    </div>
+    <div class="col-md-4">
+        <p>Status atual:</p>
+        <div style="font-size:60px">
+            @{
+                if (Model.FirstOrDefault() != null && Model.First().Pronto)
+                {
+                    <p style="color:green">Sim</p>
+                }
+                else {
+                    <p style="color:red">Não</p>
+                }
+            }
+        </div>
+    </div>
+</div>
+  
+
+<div id="add" style="display:inline-flex; margin-bottom:10px; margin-top:10px" class="col-md-12">
+    <input class="form-control text-box" id="Observacao" name="Observacao" type="text" placeholder="Observação opcional" style="margin-right:10px">
+    <input type="submit" value="Não tem" class="btn btn-default" onclick="addStatus(false)" style="margin-right:2px; color:red">
+    <input type="submit" value="Tem!" class="btn btn-default" onclick="addStatus(true) " style="margin-right:2px; color:green">
+</div>
+
+<table class="table" style="width:80%">
+    <tr>
+        <th style="width:20%">
+            @Html.DisplayNameFor(model => model.Data)
+        </th>
+        <th style="width:30%">
+            @Html.DisplayNameFor(model => model.Pronto)
+        </th>
+        <th style="width:50%">
+            @Html.DisplayNameFor(model => model.Observacao)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Observacao)
+            </td>
+        </tr>
+    }
+
+</table>
+
+

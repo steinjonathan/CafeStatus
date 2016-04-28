@@ -1,0 +1,164 @@
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\ApplicationInsights.config
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\csc.exe
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\System.Collections.Immutable.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\vbc.exe
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\VBCSCompiler.exe
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\roslyn\VBCSCompiler.exe.config
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\CafeStatus.dll.config
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\CafeStatus.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\CafeStatus.pdb
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Antlr3.Runtime.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\EntityFramework.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\EntityFramework.SqlServer.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.Web.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.WindowsServer.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.ApplicationInsights.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Google.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Web.Infrastructure.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Newtonsoft.Json.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Owin.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.Helpers.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.Mvc.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.Optimization.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.Razor.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.WebPages.Deployment.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.WebPages.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.WebPages.Razor.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\WebGrease.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.Web.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AI.WindowsServer.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.ApplicationInsights.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.Helpers.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.Mvc.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.Optimization.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.Razor.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.WebPages.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.WebPages.Deployment.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\System.Web.WebPages.Razor.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Antlr3.Runtime.pdb
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Newtonsoft.Json.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\EntityFramework.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\EntityFramework.SqlServer.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Google.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\obj\Debug\CafeStatus.csprojResolveAssemblyReference.cache
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\obj\Debug\CafeStatus.dll
+c:\users\jstein\documents\visual studio 2015\Projects\CafeStatus\CafeStatus\obj\Debug\CafeStatus.pdb
+C:\Projetos\CafeStatus\CafeStatus\bin\ApplicationInsights.config
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\csc.exe
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\System.Collections.Immutable.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\vbc.exe
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\VBCSCompiler.exe
+C:\Projetos\CafeStatus\CafeStatus\bin\roslyn\VBCSCompiler.exe.config
+C:\Projetos\CafeStatus\CafeStatus\bin\CafeStatus.dll.config
+C:\Projetos\CafeStatus\CafeStatus\bin\CafeStatus.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\CafeStatus.pdb
+C:\Projetos\CafeStatus\CafeStatus\bin\Antlr3.Runtime.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\EntityFramework.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\EntityFramework.SqlServer.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.Web.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.WindowsServer.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.ApplicationInsights.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Google.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Web.Infrastructure.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Newtonsoft.Json.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Owin.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.Helpers.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.Mvc.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.Optimization.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.Razor.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.WebPages.Deployment.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.WebPages.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.WebPages.Razor.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\WebGrease.dll
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.Web.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AI.WindowsServer.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.ApplicationInsights.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.Helpers.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.Mvc.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.Optimization.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.Razor.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.WebPages.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.WebPages.Deployment.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\System.Web.WebPages.Razor.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Antlr3.Runtime.pdb
+C:\Projetos\CafeStatus\CafeStatus\bin\Newtonsoft.Json.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\EntityFramework.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\EntityFramework.SqlServer.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Google.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Projetos\CafeStatus\CafeStatus\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Projetos\CafeStatus\CafeStatus\obj\Debug\CafeStatus.csprojResolveAssemblyReference.cache
+C:\Projetos\CafeStatus\CafeStatus\obj\Debug\CafeStatus.dll
+C:\Projetos\CafeStatus\CafeStatus\obj\Debug\CafeStatus.pdb
