@@ -7,6 +7,8 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using CafeStatus.Models;
+using PushSharp.Google;
+using PushSharp.Core;
 
 namespace CafeStatus.Controllers
 {
@@ -49,6 +51,12 @@ namespace CafeStatus.Controllers
         {
             if (ModelState.IsValid)
             {
+                var lastStatus = db.Status.OrderByDescending(p => p.Data).FirstOrDefault();
+                if (cafeStatus.Pronto && (lastStatus == null || lastStatus.Pronto != cafeStatus.Pronto) )
+                {
+                    PushService.Send();
+                }
+
                 cafeStatus.Data = DateTime.Now;
                 db.Status.Add(cafeStatus);
                 db.SaveChanges();
@@ -58,6 +66,8 @@ namespace CafeStatus.Controllers
             return View(cafeStatus);
         }
 
+
+       
         // GET: CafeStatus/Edit/5
         public ActionResult Edit(int? id)
         {

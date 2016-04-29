@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CafeStatus.Migrations;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -38,6 +39,17 @@ namespace CafeStatus.Models
 
     }
 
+    public class PushDevice
+    {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
+        public int Id { get; set; }
+        [Required]
+        public string Endpoint { get; set; }
+    }
+
+
     public class CafeDBContext : DbContext
     {
         public CafeDBContext() : base("name=StatusCafeDB")
@@ -45,5 +57,14 @@ namespace CafeStatus.Models
 
         }
         public DbSet<CafeStatusModels> Status { get; set; }
+
+        public DbSet<PushDevice> PushDevices { get; set; }
+
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<CafeDBContext, Configuration>());
+        }
     }
 }
