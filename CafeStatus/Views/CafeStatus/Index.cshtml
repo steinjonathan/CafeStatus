@@ -8,13 +8,13 @@
 
     function addStatus(status) {
 
-        //var observacao = $('#Observacao').val();
-
+        var observacao = $('#Observacao').val();
+        
         $.ajax({
-            url: window.location.href + "/CafeStatus/Create",
+            url: "@Html.Raw(@Url.Content("~"))"+"CafeStatus/Create",
             type: "post", //send it through get method
             data: {
-                //Observacao: observacao,
+                Observacao: observacao,
                 Pronto: status
             },
         }).done(function () {
@@ -52,7 +52,7 @@
   
 
 <div id="add" style="display:inline-flex; margin-bottom:10px; margin-top:10px" class="col-md-12">
-    @*<input class="form-control text-box" id="Observacao" name="Observacao" type="text" placeholder="Observação opcional" style="margin-right:10px">*@
+    <input class="form-control text-box" id="Observacao" name="Observacao" type="text" placeholder="Observação opcional" style="margin-right:10px">
     <input type="submit" value="Não tem" class="btn btn-default" onclick="addStatus(false)" style="margin-right:2px; color:red">
     <input type="submit" value="Tem!" class="btn btn-default" onclick="addStatus(true) " style="margin-right:2px; color:green">
 </div>
@@ -62,12 +62,15 @@
         <th style="width:20%">
             @Html.DisplayNameFor(model => model.Data)
         </th>
-        <th style="width:30%">
+        <th style="width:20%">
             @Html.DisplayNameFor(model => model.Pronto)
         </th>
-        @*<th style="width:50%">
+        <th style="width:50%">
             @Html.DisplayNameFor(model => model.Observacao)
-        </th>*@
+        </th>
+        <th style="width:10%">
+            @Html.DisplayNameFor(model => model.UserName)
+        </th>
         <th></th>
     </tr>
 
@@ -80,9 +83,12 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Status)
             </td>
-            @*<td>
+            <td>
                 @Html.DisplayFor(modelItem => item.Observacao)
-            </td>*@
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName.Split('@')[0])
+            </td>
         </tr>
     }
 

@@ -1,4 +1,5 @@
 ﻿using CafeStatus.Migrations;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -37,6 +38,8 @@ namespace CafeStatus.Models
             set { }
         }
 
+        [StringLength(256)]
+        public string UserName { get; set; }
     }
 
     public class PushDevice
@@ -50,7 +53,7 @@ namespace CafeStatus.Models
     }
 
 
-    public class CafeDBContext : DbContext
+    public class CafeDBContext : IdentityDbContext<ApplicationUser>
     {
         public CafeDBContext() : base("name=StatusCafeDB")
         {
@@ -60,6 +63,10 @@ namespace CafeStatus.Models
 
         public DbSet<PushDevice> PushDevices { get; set; }
 
+        public static CafeDBContext Create()
+        {
+            return new CafeDBContext();
+        }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

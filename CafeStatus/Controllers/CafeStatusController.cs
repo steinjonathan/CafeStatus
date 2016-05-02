@@ -12,6 +12,7 @@ using PushSharp.Core;
 
 namespace CafeStatus.Controllers
 {
+    [Authorize]
     public class CafeStatusController : Controller
     {
         private CafeDBContext db = new CafeDBContext();
@@ -49,29 +50,28 @@ namespace CafeStatus.Controllers
         [HttpPost]
         public ActionResult Create(CafeStatusModels cafeStatus)
         {
+
+
             if (ModelState.IsValid)
             {
                 var lastStatus = db.Status.OrderByDescending(p => p.Data).FirstOrDefault();
 
-                if (DateTime.Now - lastStatus.Data >  TimeSpan.FromMinutes(1))
+                if (lastStatus == null || (DateTime.Now - lastStatus.Data > TimeSpan.FromMinutes(1) && lastStatus.Pronto != cafeStatus.Pronto))
                 {
+                   
+                    cafeStatus.Data = DateTime.Now;
+                    cafeStatus.UserName = this.User.Identity.Name;
+                    db.Status.Add(cafeStatus);
 
-                    if (lastStatus.Pronto != cafeStatus.Pronto)
+                    db.Status.RemoveRange(db.Status.OrderByDescending(p => p.Data).Skip(10).ToList());
+
+                    db.SaveChanges();
+
+                    if (cafeStatus.Pronto && (lastStatus == null || lastStatus.Pronto != cafeStatus.Pronto))
                     {
-                        if (cafeStatus.Pronto && (lastStatus == null || lastStatus.Pronto != cafeStatus.Pronto))
-                        {
-                            //PushService.Send();
-                        }
-
-                        cafeStatus.Data = DateTime.Now;
-                        cafeStatus.Observacao = "";
-                        db.Status.Add(cafeStatus);
-
-                        db.Status.RemoveRange(db.Status.OrderByDescending(p => p.Data).Skip(10).ToList());
-
-
-                        db.SaveChanges();
+                        PushService.Send();
                     }
+
                 }
 
 
@@ -83,7 +83,7 @@ namespace CafeStatus.Controllers
         }
 
 
-       
+
         // GET: CafeStatus/Edit/5
         public ActionResult Edit(int? id)
         {
