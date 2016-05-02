@@ -52,14 +52,30 @@ namespace CafeStatus.Controllers
             if (ModelState.IsValid)
             {
                 var lastStatus = db.Status.OrderByDescending(p => p.Data).FirstOrDefault();
-                if (cafeStatus.Pronto && (lastStatus == null || lastStatus.Pronto != cafeStatus.Pronto) )
+
+                if (DateTime.Now - lastStatus.Data >  TimeSpan.FromMinutes(1))
                 {
-                    PushService.Send();
+
+                    if (lastStatus.Pronto != cafeStatus.Pronto)
+                    {
+                        if (cafeStatus.Pronto && (lastStatus == null || lastStatus.Pronto != cafeStatus.Pronto))
+                        {
+                            //PushService.Send();
+                        }
+
+                        cafeStatus.Data = DateTime.Now;
+                        cafeStatus.Observacao = "";
+                        db.Status.Add(cafeStatus);
+
+                        db.Status.RemoveRange(db.Status.OrderByDescending(p => p.Data).Skip(10).ToList());
+
+
+                        db.SaveChanges();
+                    }
                 }
 
-                cafeStatus.Data = DateTime.Now;
-                db.Status.Add(cafeStatus);
-                db.SaveChanges();
+
+
                 return RedirectToAction("Index");
             }
 

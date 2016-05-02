@@ -116,5 +116,21 @@
         }
     </script>
 
+
+    <script>
+        $(document).ready(function () {
+            $('datetimelocal').each(function (i, el) {
+                var date = $(el).attr('date');
+                if (date) {
+                    var format = $(el).attr('format');
+                    var formated = new Date(date).toLocaleString();
+                    if (format) {
+                        formated = moment(date).format(format);
+                    }
+                    $(el).text(formated);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
