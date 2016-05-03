@@ -56,7 +56,7 @@ namespace CafeStatus.Controllers
             {
                 var lastStatus = db.Status.OrderByDescending(p => p.Data).FirstOrDefault();
 
-                if (lastStatus == null || (DateTime.Now - lastStatus.Data > TimeSpan.FromMinutes(1) && lastStatus.Pronto != cafeStatus.Pronto))
+                if (lastStatus == null || (DateTime.Now - lastStatus.Data > TimeSpan.FromMinutes(1)))
                 {
                    
                     cafeStatus.Data = DateTime.Now;
