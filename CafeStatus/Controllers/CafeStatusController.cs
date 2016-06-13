@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using CafeStatus.Models;
+using System;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Mvc;
-using CafeStatus.Models;
-using PushSharp.Google;
-using PushSharp.Core;
 
 namespace CafeStatus.Controllers
 {
